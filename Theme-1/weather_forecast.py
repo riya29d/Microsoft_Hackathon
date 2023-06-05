@@ -2,7 +2,7 @@ import requests
 import datetime as dt
 
 base_url = "https://api.openweathermap.org/data/2.5/weather?"
-api_key = "493fee0cf7c2b14937653f997b28d07f" # Replace with your OpenWeatherMap API key
+api_key = "YOUR_API_KEY" # Replace with your OpenWeatherMap API key
 
 def kelvin_to_celsius_fahrenheit(kelvin):
     celsius = kelvin - 273.15
